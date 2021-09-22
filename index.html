@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Glory:wght@400;700&display=swap" rel="stylesheet">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav nav-top">
+            <img src="image/wds_logo.png" alt="logo">
+            <ul class="list">
+            <a href="#curriculum"><li>Curriculum</li></a>
+            <a href="#pricing"><li>Pricing</li></a>
+            <a href="#contact"><li>Contact</li></a>
+            </ul>
+        </nav>
+        <section class="middle-content">
+            <h1 class="title">WDS Bootcamp</h1>
+            <div class="subtitle">From No Stack To Full Stack</div>
+            <a href="#" class="btn btn-round btn-grow">Learn More</a>
+        </section>
+        <img class="arrow-down" src="image/arrow_down.svg" alt="">
+    </header>
+    <section class="curriculum" id="curriculum">
+        <h2 class="curriculum-title">Curriculum</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="image/html_icon.svg" alt="HTML icon">
+                <p>Start with the basics by learning HTML/CSS to build your first website</p>
+            </div>
+            <div class="grid-item">
+                <img src="image/node_js_icon.svg" alt="HTML icon">
+                <p>Start with the basics by learning HTML/CSS to build your first website</p>
+            </div>
+            <div class="grid-item">
+                <img src="image/vscode_icon.svg" alt="HTML icon">
+                <p>Start with the basics by learning HTML/CSS to build your first website</p>
+            </div>
+            <div class="grid-item">
+                <img src="image/database_icon.svg" alt="HTML icon">
+                <p>Start with the basics by learning HTML/CSS to build your first website</p>
+            </div>
+            <div class="grid-item">
+                <img src="image/edit_page_icon.svg" alt="HTML icon">
+                <p>Start with the basics by learning HTML/CSS to build your first website</p>
+            </div>
+            <div class="grid-item">
+                <img src="image/react_icon.svg" alt="HTML icon">
+                <p>Start with the basics by learning HTML/CSS to build your first website</p>
+            </div>
+        </div>
+    </section>
+    <section class="pricing-section" id="pricing">
+        <div class="pricing-container">
+            <div class="pricing-card basic">
+                <div class="pricing-header">
+                    <div class="plan-name">Basic</div>
+                    <div class="plan-price">$10</div>
+                </div>
+                <div class="plan-features">
+                    <div class="feature">4 Videos Per Month</div>
+                    <div class="feature">1 Project Based Video Per Month</div>
+                    <div class="feature inactive">Weekly Live Streams</div>
+                    <div class="feature inactive">24/7 Email Support</div>
+                    <div class="feature inactive">24/7 Phone Support</div>
+                    <div class="feature inactive">1 Project Code Review Per Month</div>
+                </div>
+            </div>
+            <div class="pricing-card accent">
+                <div class="pricing-header">
+                    <div class="plan-name">Preferred</div>
+                    <div class="plan-price">$25</div>
+                </div>
+                <div class="plan-features">
+                    <div class="feature">6 Videos Per Month</div>
+                    <div class="feature">2 Project Based Video Per Month</div>
+                    <div class="feature">Weekly Live Streams</div>
+                    <div class="feature">24/7 Email Support</div>
+                    <div class="feature inactive">24/7 Phone Support</div>
+                    <div class="feature inactive">1 Project Code Review Per Month</div>
+                </div>
+            </div>
+            <div class="pricing-card pro">
+                <div class="pricing-header">
+                    <div class="plan-name">Pro</div>
+                    <div class="plan-price">$50</div>
+                </div>
+                <div class="plan-features">
+                    <div class="feature">8 Videos Per Month</div>
+                    <div class="feature">4 Project Based Video Per Month</div>
+                    <div class="feature">Weekly Live Streams</div>
+                    <div class="feature">24/7 Email Support</div>
+                    <div class="feature">24/7 Phone Support</div>
+                    <div class="feature">1 Project Code Review Per Month</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-form" id="contact">
+        <h2 class="contact-title">Contact</h2>
+        <form class="form">
+            <div class="label">
+                <label for="name">Name</label>
+            </div>
+            <input type="text" name="name" id="name">
+            <div class="label">
+                <label for="email">Email</label>
+            </div>
+            <input type="email" name="email" id="email">
+            <div class="label">
+                <label for="message">Message</label>
+            </div>
+            <textarea name="message" id="message"></textarea>
+            <div class="form-btn">
+                <button class="btn">Send</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <nav class="nav nav-btm">
+            <img src="image/wds_logo.png" alt="">
+            <ul class="list">
+                <a href="#curriculum"><li>Curriculum</li></a>
+                <a href="#pricing"><li>Pricing</li></a>
+                <a href="#contact"><li>Contact</li></a>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
